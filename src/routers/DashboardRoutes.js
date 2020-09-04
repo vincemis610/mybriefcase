@@ -13,6 +13,7 @@ export const DashboardRoutes = () => {
             <NavbarMenu />
             <div>
                 <Switch>
+                    <Route exact path="/mybriefcase" component={HomeScreen}/>
                     <Route exact path="/home" component={HomeScreen}/>
                     <Route exact path="/curriculum" component={CurriculumScreen}/>
                     <Route exact path="/projects" component={ProjectsScreen}/>

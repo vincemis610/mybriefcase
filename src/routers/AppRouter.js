@@ -1,7 +1,8 @@
 import React from 'react';
 import {
     BrowserRouter as Router,
-    Switch
+    Switch,
+    Redirect
 } from 'react-router-dom'; 
 
 import { DashboardRoutes } from './DashboardRoutes';
@@ -12,6 +13,7 @@ export const AppRouter = () => {
             <Switch>
                 <DashboardRoutes />
             </Switch>
+            <Redirect to="/mybriefcase"/>
         </Router>
     )
 }
