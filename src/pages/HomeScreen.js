@@ -23,7 +23,7 @@ export const HomeScreen = () => {
             <div className="row center-item">
                 <div className="col-12 col-md-6 nav-burger">
                     <div className="avatar-content text-center animate__animated animate__flipInX">
-                        <img src="./assets/dev.png" alt="avatar" />
+                        <img src="https://raw.githubusercontent.com/vincemis610/mybriefcase/master/public/assets/dev.png" alt="avatar" />
                     </div>
                 </div>
                 <div className="col-12 col-md-6 nav-burger animate__animated animate__fadeIn">
