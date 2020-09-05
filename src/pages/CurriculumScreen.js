@@ -9,6 +9,9 @@ export const CurriculumScreen = () => {
     
     const [modalAbout, setModalAbout] = useState(false);
 
+    const reverseJobs = jobs.map(item => item).reverse();
+    const reversePrep = preparation.map(item => item).reverse();
+
     const openModal = () => {
         setModalAbout(!modalAbout)
     }
@@ -25,7 +28,8 @@ export const CurriculumScreen = () => {
                         <div className="hrow"></div>
                     </div>
                     {
-                        jobs.map(job => 
+                        
+                        reverseJobs.map(job => 
                             <JobCard   
                                 key={job.id}
                                 {...job}
@@ -43,7 +47,7 @@ export const CurriculumScreen = () => {
                     </div>
                     
                     {
-                        preparation.map(p => 
+                        reversePrep.map(p => 
                             <PreparationCard
                             className="mycard" 
                                 key={p.id}
