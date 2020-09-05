@@ -13,7 +13,7 @@ export const AppRouter = () => {
             <Switch>
                 <DashboardRoutes />
             </Switch>
-            <Redirect to="/home"/>
+            <Redirect to="home"/>
         </Router>
     )
 }
