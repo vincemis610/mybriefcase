@@ -17,7 +17,7 @@ export const ProjectsScreen = () => {
 
             <div className="row col-12 pt-4">
                     <div className="col-12">
-                        <i className="fa fa-briefcase icon-cv" aria-hidden="true"></i><h2>Laboral Experience</h2>
+                        <i className="fa fa-briefcase icon-cv" aria-hidden="true"></i><h2>Projects</h2>
                     </div>
                     <div className="col-12">
                         <div className="hrow"></div>
