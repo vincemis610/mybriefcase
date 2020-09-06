@@ -11,6 +11,9 @@ const Button = style.button`
 `;
 
 export const ProjectsScreen = () => {
+
+    const reverseProjects = projects.map(item => item).reverse();
+
     return (
         <div className="container center-item">
             <div className="row mt-5 text-light">
@@ -24,7 +27,7 @@ export const ProjectsScreen = () => {
                     </div>
                     {
                         
-                        projects.map(project => 
+                        reverseProjects.map(project => 
                             <div className="col-12 col-md-6 my-2 p-2 text-d" key={project.id}>
                                 <div className="card my-3 p-3 text-d">
                                     <img src={project.screen} className="card-img-top" alt={project.project}/>
