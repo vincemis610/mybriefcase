@@ -43,9 +43,10 @@ export const HomeScreen = () => {
         <div className="col-12 col-md-6 nav-burger animate__animated animate__fadeIn">
           <h1 className="title-name">Hello there..!</h1>
           <p className="text-content">
-            I'm Vince Mis and am a Fullstack Developer
+            I'm Vince Mis, a Full Stack Developer passionate about building
+            modern, scalable, and user-friendly web applications.
           </p>
-          <div className="d-flex justify-content-between w-75">
+          <div className="d-flex justify-content-between w-100">
             <Button onClick={openModal}>About Me</Button>
             <Button onClick={downloadCV}>Download CV</Button>
           </div>

@@ -10,7 +10,7 @@ export const JobCard = ({
   activities,
 }) => {
   return (
-    <div className="col-12 col-md-6 my-2 p-2 text-d">
+    <div className="col-12 col-sm-6 my-2 p-2 text-d">
       <div className="card job-card">
         <div>
           <h5>

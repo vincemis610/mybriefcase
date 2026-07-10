@@ -16,7 +16,7 @@ export const ProjectsScreen = () => {
   return (
     <div className="container center-item">
       <div className="row mt-5 text-light">
-        <div className="row col-12 pt-4">
+        <div className="col-12 pt-4">
           <div className="col-12 d-flex align-items-center">
             <i className="fa fa-briefcase icon-cv mr-3" aria-hidden="true"></i>
             <h2>Projects</h2>

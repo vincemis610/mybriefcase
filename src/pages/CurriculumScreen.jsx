@@ -16,22 +16,24 @@ export const CurriculumScreen = () => {
   };
 
   return (
-    <div className="container center-item">
+    <div className="container">
       <div className="row mt-5 text-light">
-        <div className="row col-12 pt-4 pb-5">
-          <div className="col-12 d-flex align-items-center">
+        <div className="col-12 pt-4 pb-5">
+          <div className="d-flex align-items-center">
             <i className="fa fa-briefcase icon-cv mr-3" aria-hidden="true"></i>
             <h2>Experience</h2>
           </div>
-          <div className="col-12">
-            <div className="hrow"></div>
+
+          <div className="hrow"></div>
+
+          <div className="row" style={{ padding: 0, margin: 0 }}>
+            {reverseJobs.map((job) => (
+              <JobCard key={job.id} {...job} />
+            ))}
           </div>
-          {reverseJobs.map((job) => (
-            <JobCard key={job.id} {...job} />
-          ))}
         </div>
 
-        <div className="row col-12">
+        <div className="col-12">
           <div className="col-12 d-flex align-items-center">
             <i
               className="fa fa-graduation-cap icon-cv mr-3"
@@ -42,10 +44,11 @@ export const CurriculumScreen = () => {
           <div className="col-12">
             <div className="hrow"></div>
           </div>
-
-          {reversePrep.map((p) => (
-            <PreparationCard className="mycard" key={p.id} {...p} />
-          ))}
+          <div className="row" style={{ padding: 0, margin: 0 }}>
+            {reversePrep.map((p) => (
+              <PreparationCard className="mycard" key={p.id} {...p} />
+            ))}
+          </div>
         </div>
       </div>
 
