@@ -15,7 +15,7 @@ export const JobCard = ({
         <div>
           <h5>
             <i className="fa fa-building mr-3" aria-hidden="true"></i>
-            <strong>{enterprise}</strong>
+            <strong style={{ fontSize: "24px" }}>{enterprise}</strong>
           </h5>
         </div>
         <div className="job-body">

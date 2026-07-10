@@ -73,7 +73,7 @@ export const HomeScreen = () => {
             </div>
             <div className="personal-information">
               <div className="title">Information</div>
-              <div className="content">
+              <div className="content d-flex flex-wrap">
                 <div>
                   <strong>Location:</strong> Teabo, Yucatan
                 </div>
@@ -87,7 +87,12 @@ export const HomeScreen = () => {
                 </div>
                 <div>
                   <strong>LinkedIn:</strong>{" "}
-                  https://www.linkedin.com/in/vince-mis-609b27185/
+                  <a
+                    href="https://www.linkedin.com/in/vince-mis-609b27185/"
+                    style={{ wordBreak: "break-all", textDecoration: "none" }}
+                  >
+                    https://www.linkedin.com/in/vince-mis-609b27185/
+                  </a>
                 </div>
               </div>
             </div>

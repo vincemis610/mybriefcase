@@ -75,17 +75,3 @@ export const CurriculumScreen = () => {
     </div>
   );
 };
-
-/* 
-jobs.map( job => (
-                    <div className="col-12 card my-2 text-d" key={job.id} onClick={() => openModal(job)}>
-                        <div className="card-body">
-                            <h3><i className="fa fa-building mr-3" aria-hidden="true"></i>{job.enterprise}</h3>
-                            <strong>{job.charge} : </strong> {job.period}
-                            <p>{job.locate}, {job.col}</p>
-                            <p>{job.address}</p>
-                        </div>
-                                
-                    </div>
-                ) )
-*/
