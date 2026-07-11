@@ -40,6 +40,7 @@ body {
 .title-name {
   font-size: 50px;
   font-weight: 600;
+  align-items: center;
 }
 
 .text-content {
@@ -114,7 +115,7 @@ body {
     padding-bottom: 1rem;
 
     img {
-      height: 80px;
+      height: 4rem;
       padding: 0.8rem;
     }
     div {

@@ -34,20 +34,38 @@ export const ProjectsScreen = () => {
                     alt={project.project}
                   />
                   <div className="card-body">
-                    <h4>
+                    <h4 className="d-flex align-items-center">
                       <i className="fa fa-globe mr-3" aria-hidden="true"></i>
-                      <strong>{project.project}</strong>
+                      <a
+                        href={project.link}
+                        style={{
+                          textDecoration: "none",
+                          color: "#000",
+                          fontWeight: 600,
+                        }}
+                      >
+                        {project.project}
+                      </a>
+                      <span
+                        style={{
+                          margin: "0 5px",
+                          fontSize: "0.6rem",
+                          padding: "4px",
+                          border: "1px solid #000",
+                          borderRadius: "10%",
+                        }}
+                      >
+                        {project.year}
+                      </span>
                     </h4>
-                    <br />
-                    <span>{project.description}</span>
-                    <br />
-                    <br />
-                    <Button onClick={() => window.open(project.link)}>
-                      <i className="fa fa-eye mx-2" aria-hidden="true"></i>View
-                    </Button>
-                    <br />
-                    <br />
-                    <p>{project.technology}</p>
+                    <div className="py-2">
+                      <strong>Description</strong>
+                      <span>: {project.description}</span>
+                    </div>
+                    <div className="pt-2">
+                      <strong>Tech stack</strong>
+                      <p>{project.technology}</p>
+                    </div>
                   </div>
                 </div>
               </div>

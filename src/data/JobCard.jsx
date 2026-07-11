@@ -1,6 +1,7 @@
 import React from "react";
 
 export const JobCard = ({
+  url,
   period,
   enterprise,
   charge,
@@ -15,7 +16,16 @@ export const JobCard = ({
         <div>
           <h5>
             <i className="fa fa-building mr-3" aria-hidden="true"></i>
-            <strong style={{ fontSize: "24px" }}>{enterprise}</strong>
+            <a
+              href={url}
+              style={{
+                fontSize: "24px",
+                color: "#000",
+                textDecoration: "none",
+              }}
+            >
+              {enterprise}
+            </a>
           </h5>
         </div>
         <div className="job-body">

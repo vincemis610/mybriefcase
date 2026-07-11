@@ -1,9 +1,10 @@
 export const jobs = [
   {
     id: "1",
+    url: "https://codecti.net/28st",
     period: "Jun 2019 - Feb 2021",
     enterprise: "CodecTI",
-    charge: "Backend Developer",
+    charge: "Backend Developer, Hybrid",
     locate: "Merida Yucatan",
     col: "North Mexico",
     address: "28 st Between 27 St & 25 St",
@@ -16,12 +17,13 @@ export const jobs = [
   },
   {
     id: "2",
+    url: "https://kwantec.com/",
     period: "Feb 2021 - Oct 2022",
     enterprise: "Kwan Technology",
-    charge: "Fullsatck Developer",
+    charge: "Fullsatck Developer, Remote",
     locate: "Merida Yucatan",
-    col: "North Mexico",
-    address: "7 St and 22 St",
+    col: "Las Americas",
+    address: "Maquiladoras, industrias no contaminantes",
     activities: [
       "Built microservices and API resources for a technology hiring system.",
       "Created and modified application components and consumed external APIs.",
@@ -32,12 +34,13 @@ export const jobs = [
   },
   {
     id: "3",
+    url: "https://bnn.mx/",
     period: "Oct 2022 - Oct 2024",
     enterprise: "BNN The Digital Partner",
-    charge: "Fullstack Developer",
+    charge: "Fullstack Developer, Remote",
     locate: "CDMX",
     col: "Rosaleda 34",
-    address: "Mexico City",
+    address: "Mexico City, Rosaleda 34",
     activities: [
       "Migrated all projects deployed on the Heroku platform to AWS.",
       "Refactored the project code base using Node.js, Express, and PostgreSQL on the backend.",
@@ -48,9 +51,10 @@ export const jobs = [
   },
   {
     id: "4",
+    url: "https://dedupe.ly/",
     period: "Jan 2025 - Jun 2026",
     enterprise: "Dedupely Inc",
-    charge: "Fullstack Developer",
+    charge: "Fullstack Developer, Remote",
     locate: "Canada",
     col: "",
     address: "Canada",
