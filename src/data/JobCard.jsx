@@ -24,7 +24,7 @@ export const JobCard = ({
                 textDecoration: "none",
               }}
             >
-              {enterprise}
+              <strong>{enterprise}</strong>
             </a>
           </h5>
         </div>
